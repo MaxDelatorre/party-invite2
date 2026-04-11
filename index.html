@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel's 50th Birthday Bash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="particles" id="particles"></div>
+
+        <div class="hero-content">
+            <p class="pre-title">You are invited to</p>
+            <h1 id="main-title"></h1>
+            <div class="divider">
+                <span class="line"></span>
+                <span class="diamond">◆</span>
+                <span class="line"></span>
+            </div>
+            <p class="age-text">The Big <span class="gold">50</span></p>
+        </div>
+
+        <div class="scroll-arrow" id="scrollArrow">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="details-inner">
+            <h2 class="section-title">The Details</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">📅</div>
+                    <div class="card-label">When</div>
+                    <div class="card-value">Saturday, June 6th, 2026</div>
+                    <div class="card-sub">5:00 PM</div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📍</div>
+                    <div class="card-label">Where</div>
+                    <div class="card-value">2807 Gratton St. Riverside, Ca 92504</div>
+                    <div class="card-sub">Stay tuned for location</div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📋</div>
+                    <div class="card-label">RSVP By</div>
+                    <div class="card-value">May 10th, 2026</div>
+                    <div class="card-sub">Don't wait too long!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="countdown-section">
+        <h2 class="section-title">Counting Down</h2>
+        <div class="countdown" id="countdown">
+            <div class="count-block">
+                <span class="count-num" id="days">00</span>
+                <span class="count-label">Days</span>
+            </div>
+            <div class="count-sep">:</div>
+            <div class="count-block">
+                <span class="count-num" id="hours">00</span>
+                <span class="count-label">Hours</span>
+            </div>
+            <div class="count-sep">:</div>
+            <div class="count-block">
+                <span class="count-num" id="minutes">00</span>
+                <span class="count-label">Minutes</span>
+            </div>
+            <div class="count-sep">:</div>
+            <div class="count-block">
+                <span class="count-num" id="seconds">00</span>
+                <span class="count-label">Seconds</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="rsvp-section">
+        <div class="rsvp-inner">
+            <h2 class="section-title">RSVP</h2>
+            <p class="rsvp-sub">We'd love to have you there. Click below to confirm your spot.</p>
+            <a href="[link]" class="rsvp-btn" target="_blank">RSVP Now</a>
+            <p class="rsvp-contact">Questions? Call us at <a href="tel:111" class="phone-link">949-412-2433</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Celebrating Gabriel · 50 Years Strong 🥃</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
